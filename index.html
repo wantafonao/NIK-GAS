@@ -146,7 +146,7 @@ td.mono{
 <div class="container">
 
   <div class="header">
-    <h1>ðŸ“‹ TABEL DATA NIK</h1>
+    <h1>📋 TABEL DATA NIK</h1>
     <p>Ketik untuk mencari NIK atau nomor urut</p>
   </div>
 
@@ -306,7 +306,7 @@ nikList.forEach((nik,i)=>{
     document.execCommand("copy");
     document.body.removeChild(ta);
 
-    btn.textContent = "âœ“";
+    btn.textContent = "✓";
     btn.classList.add("copied");
     btn.disabled = true;
 
@@ -318,7 +318,7 @@ nikList.forEach((nik,i)=>{
   tbody.appendChild(tr);
 });
 
-// ðŸ” SEARCH FUNCTION
+// 🔍 SEARCH FUNCTION
 function searchTable(){
   const keyword = document.getElementById("search").value.toLowerCase();
   const rows = tbody.querySelectorAll("tr");
